@@ -1,0 +1,75 @@
+body {
+    background-color: aquamarine;
+}
+/* TABLERO DE ARRIBA CON LA FRASE */
+.container-fluid1 {
+    width: 65vw;
+    height: 70vh;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.row1-1 {
+    background-color: white;
+    width: 55vw;
+    height: 10vh;
+    margin-left: -13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.col1-1 {
+    width: 7vw;
+   height: 8vh; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+.text {
+     background-color: orange;
+    width: 7vw;
+    height: 6vh;
+}
+/* TABLERO DE JUEGO */
+.row {
+    width: 55vw;
+    height: 14vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.col-1 {
+  background-color: white;
+   width: 7vw;
+   height: 9vh;
+    border-bottom-left-radius: 53px;
+    border-bottom-right-radius: 53px;
+    border-top-left-radius: 53px;
+    border-top-right-radius: 53px;
+     border: 1px solid black;
+}
+/* OTRA PARTE PANTALLA CON DATOS */
+.container-fluid2 {
+    width: 25vw;
+    height: 70vh;
+margin-left: 60%;
+margin-top: -450px;
+ text-align: center;
+}
+
+.container-2 {
+    text-align: left;
+}
+.info {
+    margin-left: 25%;
+}
+.dif {
+   color: rgb(67, 185, 134);
+    margin-top: 30%;
+}
+.container2-2 {
+  margin-top: -100px;
+    text-align: center;
+}
